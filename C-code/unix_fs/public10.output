@@ -1,0 +1,57 @@
+% 
+% mkfs
+
+% % mkdir chipmunk
+
+% touch pear
+
+% mkdir platypus
+
+% touch papaya
+
+% touch orange
+
+% % cd chipmunk
+
+% % touch kiwi
+
+% mkdir papaya
+
+% mkdir pear
+
+% touch orange
+
+% % cd ..
+
+% % cd platypus
+
+% % touch apple
+
+% mkdir grape
+
+% mkdir banana
+
+% touch cherry
+
+% % cd /
+
+% % ls
+chipmunk/
+orange
+papaya
+pear
+platypus/
+
+% % rm chipmunk
+
+% rm orange
+
+% rm papaya
+
+% rm pear
+
+% rm platypus
+
+% % ls
+
+% 

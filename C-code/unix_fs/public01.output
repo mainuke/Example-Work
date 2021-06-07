@@ -1,0 +1,75 @@
+% 
+% mkfs
+
+% % mkdir kangaroo
+
+% touch pear
+
+% mkdir platypus
+
+% touch papaya
+
+% touch orange
+
+% % cd kangaroo
+
+% pwd
+/kangaroo
+
+% % touch kiwi
+
+% mkdir papaya
+
+% mkdir pear
+
+% touch orange
+
+% % cd pear
+
+% pwd
+/kangaroo/pear
+
+% % cd ..
+
+% cd ..
+
+% % cd platypus
+
+% % touch apple
+
+% mkdir grape
+
+% mkdir banana
+
+% touch cherry
+
+% % cd grape
+
+% % mkdir blue
+
+% touch green
+
+% mkdir purple
+
+% touch yellow
+
+% touch white
+
+% mkdir red
+
+% % cd red
+
+% pwd
+/platypus/grape/red
+
+% % cd ..
+
+% pwd
+/platypus/grape
+
+% % cd ..
+
+% pwd
+/platypus
+
+% 

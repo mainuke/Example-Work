@@ -1,0 +1,27 @@
+#!/bin/bash
+make all;
+./public01.x;
+./public02.x;
+./public03.x;
+./public04.x;
+./public05.x;
+./public06.x;
+./public07.x;
+./public08.x;
+./public09.x;
+./public10.x;
+./secret01.x;
+./secret02.x;
+./secret03.x;
+./secret04.x;
+./secret05.x;
+./secret06.x;
+./secret07.x;
+./secret08.x;
+./secret09.x;
+./secret10.x;
+./secret11.x;
+./secret12.x;
+./secret13.x;
+./secret14.x;
+./secret15.x;

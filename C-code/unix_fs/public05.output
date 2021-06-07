@@ -1,0 +1,99 @@
+% 
+% mkfs
+
+% % mkdir chipmunk
+
+% touch pear
+
+% mkdir platypus
+
+% touch papaya
+
+% touch orange
+
+% % cd chipmunk
+
+% % touch kiwi
+
+% mkdir papaya
+
+% mkdir pear
+
+% touch orange
+
+% % cd ..
+
+% % cd platypus
+
+% % touch apple
+
+% mkdir grape
+
+% mkdir banana
+
+% touch cherry
+
+% % cd grape
+
+% % mkdir blue
+
+% touch green
+
+% mkdir purple
+
+% touch yellow
+
+% touch white
+
+% mkdir red
+
+% % cd red
+
+% pwd
+/platypus/grape/red
+
+% % cd ..
+
+% pwd
+/platypus/grape
+
+% ls
+blue/
+green
+purple/
+red/
+white
+yellow
+
+% % cd ..
+
+% pwd
+/platypus
+
+% ls
+apple
+banana/
+cherry
+grape/
+
+% % cd ..
+
+% pwd
+/
+
+% ls
+chipmunk/
+orange
+papaya
+pear
+platypus/
+
+% % ls chipmunk
+kiwi
+orange
+papaya/
+pear/
+
+% 
+
+Everything in the heap looks valid!

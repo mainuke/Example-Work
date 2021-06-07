@@ -1,0 +1,28 @@
+#!/bin/tcsh -f
+
+# CMSC 216, Fall 2019, Project #13
+# Public test 7 (public7)
+#
+# Tests the program with 100 filenames on the command line, so 100 threads will
+# be created. The files are  of non-trivial size.
+#
+# (To avoid having 100 input files in the current directory there is only
+# one input file public6.input, but a UNIX command is used below to split it
+# up into 100 temporary files.  Then they are removed after running your
+# program.)
+#
+# (c) Amulya Bellam and Larry Herman, 2019.  You are allowed to use this
+# code yourself, but not to provide it to anyone else.
+
+limit maxproc 200
+
+# The following command splits the file public7.input up into 100 files,
+# named public7.inputdata.000 through public7.inputdata.099.  These
+# temporary input files are removed at the end of this script below, but if
+# you want to see them, just run this split command in the shell.
+#
+split -d -l 169 -a 3 public7.inputdata public7.inputdata.
+
+./wc-threaded.x public7.inputdata.*
+
+rm -f public7.inputdata.*

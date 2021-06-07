@@ -1,0 +1,48 @@
+set verbose
+mkfs
+
+mkdir chipmunk
+touch pear
+mkdir platypus
+touch papaya
+touch orange
+
+cd chipmunk
+
+touch kiwi
+mkdir papaya
+mkdir pear
+touch orange
+
+cd ..
+
+cd platypus
+
+touch apple
+mkdir grape
+mkdir banana
+touch cherry
+
+cd grape
+
+mkdir blue
+touch green
+mkdir purple
+touch yellow
+touch white
+mkdir red
+
+rm red
+
+cd ..
+rm grape
+
+cd ..
+rm chipmunk
+
+ls
+
+ls platypus
+
+cd platypus
+ls banana

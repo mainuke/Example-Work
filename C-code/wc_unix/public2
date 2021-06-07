@@ -1,0 +1,13 @@
+#!/bin/tcsh -f
+
+# CMSC 216, Fall 2019, Project #13
+# Public test 2 (public2)
+#
+# Tests the program with just one filename on the command line, meaning only
+# one thread will be created (besides the main thread).  The file does not
+# exist though, so it should have zero lines, words and characters.
+#
+# (c) Amulya Bellam and Larry Herman, 2019.  You are allowed to use this
+# code yourself, but not to provide it to anyone else.
+
+./wc-threaded.x public2.inputdata

@@ -1,0 +1,12 @@
+0000: diff   R1  R2  R2
+0004: mult   R4  R4  R5
+0008: mod    R2  R2  R2
+000c: or     R2  R3  R4
+0010: not    R3  R2
+0014: sw     R4  04096
+0018: read   R2
+001c: move   R4  R5
+0020: 0000aced
+0024: 0000bead
+0028: 0000face
+002c: 0000beef

@@ -1,0 +1,47 @@
+set verbose
+mkfs
+
+mkdir kangaroo
+touch pear
+mkdir platypus
+touch papaya
+touch orange
+
+cd kangaroo
+pwd
+
+touch kiwi
+mkdir papaya
+mkdir pear
+touch orange
+
+cd pear
+pwd
+
+cd ..
+cd ..
+
+cd platypus
+
+touch apple
+mkdir grape
+mkdir banana
+touch cherry
+
+cd grape
+
+mkdir blue
+touch green
+mkdir purple
+touch yellow
+touch white
+mkdir red
+
+cd red
+pwd
+
+cd ..
+pwd
+
+cd ..
+pwd

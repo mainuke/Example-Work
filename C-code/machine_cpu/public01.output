@@ -1,0 +1,8 @@
+plus   R1  R2  R3
+diff   R1  R2  R2
+mult   R4  R4  R5
+quot   R3  R1  R3
+mod    R2  R2  R2
+and    R5  R5  R5
+or     R2  R3  R4
+not    R3  R2
